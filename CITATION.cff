@@ -1,0 +1,15 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: My master thesis software
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - given-names: Oddvar Nordbø
+    family-names: Øksendal
+repository-code: >-
+  https://github.com/Oddvar-N-O/5G-RF-Spectrum-based-Cryptographic-Pseudo-Random-Number-Generation-for-IoT-Security
+abstract: 5G-SRNG Master thesis code

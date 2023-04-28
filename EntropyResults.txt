@@ -1,0 +1,111 @@
+IID tests:
+Loaded 1000000 samples of 246 distinct 8-bit-wide symbols
+Number of Binary samples: 8000000
+
+Samples have been translated
+Calculating baseline statistics...
+        Raw Mean: 95.115113
+        Median: 92.000000
+        Binary: false
+
+Literal MCV Estimate: mode = 121592, p-hat = 0.12159200000000001, p_u = 0.12243381747897834
+Bitstring MCV Estimate: mode = 5424355, p-hat = 0.67804437500000003, p_u = 0.67846987462390618
+H_original: 3.029926
+H_bitstring: 0.559643
+min(H_original, 8 X H_bitstring): 3.029926
+Chi square independence
+        score = 2885.901277
+        degrees of freedom = 2692
+        p-value = 0.004789
+
+Chi square goodness of fit
+        score = 971.261797
+        degrees of freedom = 1008
+        p-value = 0.792031
+
+** Passed chi square tests
+
+Literal Longest Repeated Substring results
+        P_col: 0.063618
+        Length of LRS: 9
+        Pr(X >= 1): 0.999803
+** Passed length of longest repeated substring test
+
+Beginning initial tests...
+
+Initial test results
+              excursion: 96439
+     numDirectionalRuns: 663559
+     lenDirectionalRuns: 9
+  numIncreasesDecreases: 531811
+          numRunsMedian: 499946
+          lenRunsMedian: 22
+           avgCollision: 5.80362
+           maxCollision: 18
+         periodicity(1): 63645
+         periodicity(2): 63825
+         periodicity(8): 63605
+        periodicity(16): 63523
+        periodicity(32): 63589
+          covariance(1): 9.04056e+09
+          covariance(2): 9.04447e+09
+          covariance(8): 9.04845e+09
+         covariance(16): 9.05087e+09
+         covariance(32): 9.05645e+09
+            compression: 630790
+
+Beginning permutation tests... these may take some time
+ 76.23% of Permutation test rounds, 100.00% of Permutation tests
+
+                statistic  C[i][0]  C[i][1]  C[i][2]
+----------------------------------------------------
+                excursion       6       0      78
+       numDirectionalRuns       6       0      23
+       lenDirectionalRuns       1       6       0
+    numIncreasesDecreases      10       0       6
+            numRunsMedian       6       0      88
+            lenRunsMedian       1       5       8
+             avgCollision      10       0       6
+             maxCollision      15       6       0
+           periodicity(1)       6       0      10
+           periodicity(2)       6       0      25
+           periodicity(8)       6       0      10
+          periodicity(16)       6       0       6
+          periodicity(32)      11       0       6
+            covariance(1)      54       0       6
+            covariance(2)       9       0       6
+            covariance(8)       6       0       7
+           covariance(16)       6       0      29
+           covariance(32)       6       0     488
+              compression       7       0       6
+(* denotes failed test)
+
+** Passed IID permutation tests
+
+
+Restart tests:
+Loaded 1000000 samples made up of 245 distinct 8-bit-wide symbols.
+
+Symbols have been translated.
+
+H_I: 3.029926
+ALPHA: 5.0251553006530614e-06, X_cutoff: 175
+X_max: 159
+
+Restart Sanity Check Passed...
+
+Running IID tests...
+
+Running Most Common Value Estimate...
+Literal MCV Estimate: mode = 121934, p-hat = 0.121934, p_u = 0.122776836408199
+        Most Common Value Estimate (Rows) = 3.025890 / 8 bit(s)
+Literal MCV Estimate: mode = 121934, p-hat = 0.121934, p_u = 0.122776836408199
+        Most Common Value Estimate (Cols) = 3.025890 / 8 bit(s)
+
+H_r: 3.025890
+H_c: 3.025890
+H_I: 3.029926
+
+Validation Test Passed...
+
+min(H_r, H_c, H_I): 3.025890

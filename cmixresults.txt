@@ -1,0 +1,8 @@
+For 8bit with chaotization:
+Detected block types: DEFAULT: 100.0%
+1000000 bytes -> 553172 bytes in 74977.63 s.
+cross entropy: 4.425
+For 8bit without chaotization:
+Detected block types: DEFAULT: 100.0%
+1000000 bytes -> 299846 bytes in 2615.42 s.
+cross entropy: 2.399
